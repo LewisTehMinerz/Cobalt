@@ -5,7 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Cobalt extends JavaPlugin {
 
-    public Localization t;
+    private Localization t;
     public static Cobalt INSTANCE;
 
     @Override
