@@ -4,11 +4,13 @@ buildscript {
     }
     dependencies {
         classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.2'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.30'
     }
 }
 
 plugins {
     id 'com.github.johnrengelman.shadow' version '2.0.2'
+    id 'org.jetbrains.kotlin.jvm' version '1.2.30'
     id 'java'
 }
 
@@ -36,4 +38,11 @@ build {
 
 dependencies {
     compileOnly 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT'
+    compile 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.30'
+}
+
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
 }

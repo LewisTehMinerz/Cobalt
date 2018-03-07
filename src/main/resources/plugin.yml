@@ -1,3 +1,4 @@
 name: Cobalt
 version: ${COBALT_VERSION}
 main: mosaic.cobalt.Cobalt
+authors: [LewisTehMinerz]

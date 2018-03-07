@@ -1,0 +1,14 @@
+###########################
+# Cobalt Translation File #
+###########################
+plugin:
+  starting: 'Cobalt is starting...'
+  finished: 'Cobalt has started!'
+chat:
+  prefix: '&b&l(!)'
+commands:
+  no-permission: '&cYou do not have permission to do this!'
+  disabled: '&cThis command has been disabled.'
+  gamemode:
+    mode-updated: 'Your gamemode has been updated to %GAMEMODE%.'
+    mode-set: 'You have set %GAMEMODE%''s gamemode to %GAMEMODE%.'

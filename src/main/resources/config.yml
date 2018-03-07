@@ -1,0 +1,18 @@
+#############################################
+#         Cobalt Configuration File         #
+#                                           #
+#    NOTICE: Language definitions are in    #
+#  lang.yml rather than the configuration.  #
+# You can download language definitions for #
+#     your language on the Spigot page.     #
+#############################################
+
+# Allows you to enable and disable modules.
+modules:
+  # Essential commands such as /gamemode, /enchant, /god, /home, etc.
+  essentials: true
+  # Administration commands such as /ban, /tempban, /kick, etc.
+  administration: true
+  # Prevents users from exploiting known bugs in Minecraft.
+  # This may cause some issues, and as such is considered BETA.
+  anti-exploit: false
