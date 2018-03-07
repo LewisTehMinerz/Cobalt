@@ -5,11 +5,11 @@ import org.bukkit.plugin.Plugin;
 public class MessageBuilder {
 
     private Plugin cobalt;
-    private Translation t;
+    private Localization t;
 
     public MessageBuilder(Plugin p) {
         cobalt = p;
-        t = new Translation(p);
+        t = new Localization(p);
     }
 
     public String buildMessage(String msg) {

@@ -8,18 +8,18 @@ import org.bukkit.plugin.Plugin;
 import java.io.File;
 import java.nio.file.Paths;
 
-public class Translation {
+public class Localization {
 
     private FileConfiguration languageFile;
     private Plugin p;
 
-    public Translation(Plugin p, String langFile) {
+    public Localization(Plugin p, String langFile) {
         File lang = Paths.get(p.getDataFolder().getAbsolutePath(), langFile).toFile();
         languageFile = YamlConfiguration.loadConfiguration(lang);
         this.p = p;
     }
 
-    public Translation(Plugin p) {
+    public Localization(Plugin p) {
         this(p, "lang.yml");
     }
 

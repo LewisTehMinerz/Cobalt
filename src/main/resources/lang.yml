@@ -11,4 +11,4 @@ commands:
   disabled: '&cThis command has been disabled.'
   gamemode:
     mode-updated: 'Your gamemode has been updated to %GAMEMODE%.'
-    mode-set: 'You have set %GAMEMODE%''s gamemode to %GAMEMODE%.'
+    mode-set: 'You have set %PLAYER%''s gamemode to %GAMEMODE%.'

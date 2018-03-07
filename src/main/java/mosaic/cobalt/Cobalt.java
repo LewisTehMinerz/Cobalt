@@ -1,11 +1,11 @@
 package mosaic.cobalt;
 
-import mosaic.cobalt.util.Translation;
+import mosaic.cobalt.util.Localization;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Cobalt extends JavaPlugin {
 
-    public Translation t;
+    public Localization t;
     public static Cobalt INSTANCE;
 
     @Override
@@ -13,7 +13,7 @@ public class Cobalt extends JavaPlugin {
         saveDefaultConfig();
         saveResource("lang.yml", false);
         INSTANCE = this;
-        t = new Translation(this);
+        t = new Localization(this);
         getLogger().info(t.getTranslation("plugin.starting"));
         getLogger().info(t.getTranslation("plugin.finished"));
     }
