@@ -2,10 +2,10 @@
 # Cobalt Translation File #
 ###########################
 plugin:
+  version: 'You are running Cobalt %VERSION%.'
   starting: 'Cobalt is starting...'
-  finished: 'Cobalt has started!'
-chat:
-  prefix: '&b&l(!)'
+  enabled: 'Cobalt has been enabled!'
+  disabled: 'Cobalt has been disabled!'
 commands:
   no-permission: '&cYou do not have permission to do this!'
   disabled: '&cThis command has been disabled.'

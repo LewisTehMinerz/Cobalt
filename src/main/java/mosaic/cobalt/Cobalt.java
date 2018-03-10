@@ -14,8 +14,14 @@ public class Cobalt extends JavaPlugin {
         saveResource("lang.yml", false);
         INSTANCE = this;
         t = new Localization(this);
+        getLogger().info(t.getTranslation("plugin.version").replace("%VERSION%", getDescription().getVersion()));
         getLogger().info(t.getTranslation("plugin.starting"));
-        getLogger().info(t.getTranslation("plugin.finished"));
+        getLogger().info(t.getTranslation("plugin.enabled"));
+    }
+
+    @Override
+    public void onDisable() {
+        getLogger().info(t.getTranslation("plugin.disabled"));
     }
 
 }

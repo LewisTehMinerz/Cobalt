@@ -7,6 +7,9 @@
 #     your language on the Spigot page.     #
 #############################################
 
+# Sets the chat prefix. %MODULE% will be replaced with the module's formatted name, e.g. Essentials, Administration, etc.
+prefix: '&b&l(!)'
+
 # Allows you to enable and disable modules.
 modules:
   # Essential commands such as /gamemode, /enchant, /god, /home, etc.
@@ -16,3 +19,8 @@ modules:
   # Prevents users from exploiting known bugs in Minecraft.
   # This may cause some issues, and as such is considered BETA.
   anti-exploit: false
+
+##############################
+#    End of configuration.   #
+#    Seriously, that's it.   #
+##############################
